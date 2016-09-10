@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="es-AR">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Detali Sastreria Italiana</title>
+	<title>Detali Sastreria Italiana - Trajes</title>
 	<meta name="description" content="Sastreria de hombres estilo Italia ubicada en centro porteño con años de trayectoria vistiendo al hombre moderno">
 
 	<!-- VIEWPORT -->
@@ -22,27 +22,29 @@
 </head>
 <body>
 
-	<section class="Contenedor">
+	<section class="Contenedor-Interno">
 		
 		<?php include("public/includes/header.php"); ?>
 
-		<nav>
-			<img src="public/images/logo.png" class="Logo" alt="Detali Sastreria Italiana">
+			<section class="Columnas">
+				<div class="Columnas-1">
+					<img src="public/images/logo.png" alt="">
+				</div> <!-- / Columnas-1 -->
 
-			<ul>
-				<li><a href="#">TRAJES</a></li>
-				<li><a href="#">CAMISAS</a></li>
-				<li><a href="#">CORBATAS</a></li>
-				<li><a href="#">PANTALONES</a></li>
-				<li><a href="#">ZAPATOS</a></li>
-				<li><a href="#">CINTURONES</a></li>
-				<li><a href="#">ACCESORIOS</a></li>
-			</ul>
-		</nav> <!-- / nav -->
+				<div class="Columnas-2">
+					Primer fila de ropa o indumentarios
+				</div> <!-- / Columnas-2 -->
+
+				<div class="Columnas-3">
+					Segunda fila de ropa o indumentarios
+				</div> <!-- / Columnas-3 -->
+			</section> <!-- / Columnas -->
 
 		<?php include("public/includes/footer.php"); ?>
 
-	</section> <!-- / Contenedor -->
+	</section> <!-- / Contenedor-Interno -->
+
+
 	
 </body>
 </html>
