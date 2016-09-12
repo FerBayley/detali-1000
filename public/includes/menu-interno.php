@@ -1,5 +1,5 @@
 <div class="Columnas-1">
-	<img src="public/images/logo.png" width="197px" height="70px" alt="">
+	<img src="public/images/logo.png" width="197px" height="70px" alt="Detali Sastreria Italiana">
 	<ul>
 		<li><a href="trajes.php">TRAJES</a></li>
 		<li><a href="camisas.php">CAMISAS</a></li>

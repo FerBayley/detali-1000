@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-AR">
 <head>
 	<meta charset="UTF-8">
 	<title>Detali Sastreria Italiana - Zapatos</title>
@@ -62,7 +62,7 @@
 
 	</section> <!-- / Contenedor-Interno -->
 
-
-	
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/blazy/1.6.2/blazy.min.js></script>
+	<script src="public/js/scripts.js"></script>	
 </body>
 </html>

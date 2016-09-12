@@ -7,14 +7,14 @@
 		</p> <!-- / Tarjeta-texto -->
 	</section> <!-- / Tarjeta -->
 </header> <!-- / header -->
-
-<section class="Menu">
+<span class="Burguer" id="Burguer-button">MENU</span>
+<section class="Menu" id="menu">
 	<ul>
-		<li><a href="#">INICIO</a></li> |
-		<li><a href="#">A MEDIDA</a></li> |
-		<li><a href="#">QUIENES SOMOS?</a></li> |
-		<li><a href="#">CONDICIONES GENERALES</a></li> |
-		<li><a href="#">SHOWROOM</a></li> |
+		<li><a href="#">INICIO</a></li> <span class="Pleca">|</span>
+		<li><a href="#">A MEDIDA</a></li> <span class="Pleca">|</span>
+		<li><a href="#">QUIENES SOMOS?</a></li> <span class="Pleca">|</span>
+		<li><a href="#">CONDICIONES GENERALES</a></li> <span class="Pleca">|</span>
+		<li><a href="#">SHOWROOM</a></li> <span class="Pleca">|</span>
 		<li><a href="#">SASTRERIA A DOMICILIO</a></li>
 	</ul>
 </section> <!-- / Menu -->

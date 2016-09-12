@@ -30,18 +30,18 @@
 				<?php include("public/includes/menu-interno.php"); ?>	
 					
 				<div class="Columnas-2">
-					<img src="public/images/cinturon1.jpg" alt="">
+					<img data-src="public/images/cinturon1.jpg" alt="">
 					<h2 class="Columnas-titulo">CINTURONES DESCRIPCION</h2>
 					<h3 class="Columnas-precio">PRECIO AR$1.200 - <a href="#">VER MAS</a></h3>
 
 
-					<img src="public/images/cinturon8.jpg" alt="">
+					<img data-src="public/images/cinturon8.jpg" alt="">
 					<h2 class="Columnas-titulo">CINTURONES DESCRIPCION</h2>
 					<h3 class="Columnas-precio">PRECIO AR$1.200 - <a href="#">VER MAS</a></h3>
 				</div> <!-- / Columnas-2 -->
 
 				<div class="Columnas-3">
-					<img src="public/images/cinturon4.jpg" alt="">
+					<img data-src="public/images/cinturon4.jpg" alt="">
 					<h2 class="Columnas-titulo">CINTURONES DESCRIPCION</h2>
 					<h3 class="Columnas-precio">PRECIO AR$1.200 - <a href="#">VER MAS</a></h3>
 
@@ -52,7 +52,7 @@
 				</div> <!-- / Columnas-3 -->
 
 				<div class="Columnas-4">
-					<img src="public/images/cinturon6.jpg" alt="">
+					<img data-src="public/images/cinturon6.jpg" alt="">
 					<h2 class="Columnas-titulo">CINTURONES DESCRIPCION</h2>
 					<h3 class="Columnas-precio">PRECIO AR$1.200 - <a href="#">VER MAS</a></h3>
 				</div> <!-- / Columnas-4 -->
@@ -63,6 +63,7 @@
 	</section> <!-- / Contenedor-Interno -->
 
 
-	
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/blazy/1.6.2/blazy.min.js></script>
+	<script src="public/js/scripts.js"></script>	
 </body>
 </html>
