@@ -22,13 +22,10 @@
 </head>
 <body>
 
-	<section class="Contenedor">
-		
+	<section class="Contenedor">		
 		<?php include("public/includes/header.php"); ?>
-
 		<nav>
-			<img src="public/images/logo.png" class="Logo" alt="Detali Sastreria Italiana">
-
+			<img src="public/images/logo.png" class="Logo" width="226px" height="80px" alt="Detali Sastreria Italiana">
 			<ul>
 				<li><a href="#">TRAJES</a></li>
 				<li><a href="#">CAMISAS</a></li>
