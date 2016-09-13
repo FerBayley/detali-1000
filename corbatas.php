@@ -9,11 +9,9 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no"/>
 	<!-- VIEWPORT -->
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="public/css/normalize.css" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="public/css/main.css" />
-	<!-- CSS -->
+	<style>
+		*{border:0;padding:0;margin:0}html{height:100%;width:100%}body{box-sizing:border-box;font-family:'Open Sans',sans-serif;font-size:16px;height:100%}footer{background-color:#1c1252;bottom:0;padding:1em 0 .5em 1em;text-align:center;width:auto}footer a{color:#ddd;text-decoration:none}header{background-color:#000;height:auto;font-size:.9em;font-weight:100;padding:.5em 0;text-align:center;width:auto}header a{color:#fff;text-decoration:none}nav{background-color:rgba(0,0,0,0.7);height:65%;margin:0 0 0 2em;position:relative;width:17%}nav ul li{font-weight:100;list-style:none;padding:.7em 1em .2em 1.5em}nav ul li a{color:#fff;font-size:.8em;text-decoration:none}@media screen and (max-width: 1200px){footer{height:auto;margin:0;padding:.5em 0}}@media screen and (max-width: 800px){footer{height:auto;width:auto;margin:0;padding:.5em 0;width:100%}}@media screen and (max-width: 650px){footer{height:auto;width:auto;margin:0;padding:.5em 0;width:100%}}
+	</style>
 
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="favicon.ico" />
@@ -24,7 +22,6 @@
 
 	<section class="Contenedor-Interno">	
 		<?php include("public/includes/header.php"); ?>
-
 			<section class="Columnas">
 				<?php include("public/includes/menu-interno.php"); ?>
 
@@ -51,11 +48,15 @@
 					<h3 class="Columnas-precio">PRECIO AR$2.200 - <a href="#">VER MAS</a></h3>
 				</div> <!-- / Columnas-4 -->
 			</section> <!-- / Columnas -->
-
 		<?php include("public/includes/footer.php"); ?>
 	</section> <!-- / Contenedor-Interno -->
 
 	<script src=https://cdnjs.cloudflare.com/ajax/libs/blazy/1.6.2/blazy.min.js></script>
 	<script src="public/js/scripts.js"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" href="public/css/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="public/css/main.css" />
+	<!-- CSS -->
 </body>
 </html>
