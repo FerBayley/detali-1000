@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-AR">
 <head>
 	<meta charset="UTF-8">
 	<title>Detali Sastreria Italiana - Pantalones</title>
@@ -28,24 +28,35 @@
 				<?php include("public/includes/menu-interno.php"); ?>
 
 				<div class="Columnas-2">
-					<img data-src="public/images/corbata3.jpg" alt="">
+					<div class="Noimage">
+						<h4>SIN IMAGEN DISPONIBLE</h4>
+					</div> <!-- / Noimage -->
+					<!--<img data-src="public/images/corbata3.jpg" alt="Pantalones Detali">-->
 					<h2 class="Columnas-titulo">PANTALON MODELO</h2>
 					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
-
-
-					<img data-src="public/images/corbata10.jpg" alt="">
+					
+					<div class="Noimage">
+						<h4>SIN IMAGEN DISPONIBLE</h4>
+					</div> <!-- / Noimage -->
+					<!--<img data-src="public/images/corbata10.jpg" alt="Pantalones Detali">-->
 					<h2 class="Columnas-titulo">PANTALON MODELO</h2>
 					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
 				</div> <!-- / Columnas-2 -->
 
 				<div class="Columnas-3">
-					<img data-src="public/images/corbata4.jpg" alt="">
+					<div class="Noimage">
+						<h4>SIN IMAGEN DISPONIBLE</h4>
+					</div> <!-- / Noimage -->
+					<!--<img data-src="public/images/corbata4.jpg" alt="Pantalones Detali">-->
 					<h2 class="Columnas-titulo">PANTALON MODELO</h2>
 					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
 				</div> <!-- / Columnas-3 -->
 
 				<div class="Columnas-4">
-					<img data-src="public/images/corbata8.jpg" alt="">
+					<div class="Noimage">
+						<h4>SIN IMAGEN DISPONIBLE</h4>
+					</div> <!-- / Noimage -->
+					<!--<img data-src="public/images/corbata8.jpg" alt="Pantalones Detali">-->
 					<h2 class="Columnas-titulo">PANTALON MODELO</h2>
 					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
 				</div> <!-- / Columnas-4 -->
@@ -53,12 +64,16 @@
 		<?php include("public/includes/footer.php"); ?>
 	</section> <!-- / Contenedor-Interno -->
 
-	<script src=https://cdnjs.cloudflare.com/ajax/libs/blazy/1.6.2/blazy.min.js></script>
-	<script src="public/js/scripts.js"></script>
 	<!-- CSS -->
 	<link rel="stylesheet" href="public/css/normalize.css" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="public/css/main.css" />
-	<!-- CSS -->	
+	<!-- CSS -->
+
+	<!-- JS -->
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/blazy/1.6.2/blazy.min.js></script>
+	<script src="public/js/scripts.js"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+	<!-- JS -->
 </body>
 </html>
