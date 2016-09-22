@@ -1,95 +1,55 @@
 <!DOCTYPE html>
-<html lang="es-AR">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Detali Sastreria Italiana - Accesorios</title>
+	<title>Accesorios - Detali Sastreria Italiana</title>
 	<meta name="description" content="Sastreria de hombres estilo Italia ubicada en centro porteño con años de trayectoria vistiendo al hombre moderno">
 
 	<!-- VIEWPORT -->
-	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<!--<meta name="viewport" content="width=device-width, user-scalable=no"/> -->
 	<!-- VIEWPORT -->
 
-	<style>
-		*{border:0;padding:0;margin:0}html{height:100%;width:100%}body{box-sizing:border-box;font-family:'Open Sans',sans-serif;font-size:16px;height:100%}footer{background-color:#1c1252;bottom:0;padding:1em 0 .5em 1em;text-align:center;width:auto}footer a{color:#ddd;text-decoration:none}header{background-color:#000;height:auto;font-size:.9em;font-weight:100;padding:.5em 0;text-align:center;width:auto}header a{color:#fff;text-decoration:none}nav{background-color:rgba(0,0,0,0.7);height:65%;margin:0 0 0 2em;position:relative;width:17%}nav ul li{font-weight:100;list-style:none;padding:.7em 1em .2em 1.5em}nav ul li a{color:#fff;font-size:.8em;text-decoration:none}@media screen and (max-width: 1200px){footer{height:auto;margin:0;padding:.5em 0}}@media screen and (max-width: 800px){footer{height:auto;width:auto;margin:0;padding:.5em 0;width:100%}}@media screen and (max-width: 650px){footer{height:auto;width:auto;margin:0;padding:.5em 0;width:100%}}
-	</style>
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<!-- CSS -->
 
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- FAVICON -->
 
+	<script src="js/modernizr.custom.32037"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/slide.js"></script>
+
 </head>
 <body>
-	<section class="Contenedor-Interno">
-		
-		<?php include("public/includes/header.php"); ?>
+	
+	<?php include_once("includes/analyticstracking.php") ?>
+	<?php include("includes/footer-interno.php"); ?>
+	<section class="Contenido_accesorios">
+		<section class="Contenido_logo">
+			<?php include("includes/logo-interno.php"); ?>
+		</section> <!-- End of Contenido_logo -->
 
-			<section class="Columnas">
-				<?php include("public/includes/menu-interno.php"); ?>
+		<section class="Titulos_grandes">
+			<h1>Accesorios Detalí</h1>
+		</section> <!-- End of Titulos_grandes -->
 
-				<div class="Columnas-2">
-					<div class="Noimage">
-						<h4>SIN IMAGEN DISPONIBLE</h4>
-					</div> <!-- / Noimage -->
-					<!--<img data-src="public/images/camisa8.jpg" alt="Accesorios Detali">-->
-					<h2 class="Columnas-titulo">ACCESORIOS</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
+		<section class="Subtitulos">
+			<?php include("includes/contacto.php"); ?>
+		</section> <!-- End of Subtitulos -->
 
-					
-					<div class="Noimage">
-						<h4>SIN IMAGEN DISPONIBLE</h4>
-					</div> <!-- / Noimage -->
-					<!--<img data-src="public/images/camisa18.jpg" alt="Accesorios Detali">-->
-					<h2 class="Columnas-titulo">ACCESORIOS</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
-				</div> <!-- / Columnas-2 -->
+		<section class="Centro">
+			<div class="Slider">
+				<div><img src="img/centros/accesorios/accesorios-1.png" alt="Accesorios Detali"></div>
+				<div><img src="img/centros/accesorios/accesorios-2.png" alt="Accesorios Detali"></div>
+			</div> <!-- End of Slider -->
+		</section> <!-- End of Centro -->
 
-				<div class="Columnas-3">
-					<div class="Noimage">
-						<h4>SIN IMAGEN DISPONIBLE</h4>
-					</div> <!-- / Noimage -->
-					<!--<img data-src="public/images/camisa10.jpg" alt="Accesorios Detali">-->
-					<h2 class="Columnas-titulo">ACCESORIOS</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
-
-					<div class="Noimage">
-						<h4>SIN IMAGEN DISPONIBLE</h4>
-					</div> <!-- / Noimage -->
-					<!--<img data-src="public/images/camisa20.jpg" alt="Accesorios Detali">-->
-					<h2 class="Columnas-titulo">ACCESORIOS</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
-				</div> <!-- / Columnas-3 -->
-
-				<div class="Columnas-4">
-					<div class="Noimage">
-						<h4>SIN IMAGEN DISPONIBLE</h4>
-					</div> <!-- / Noimage -->
-					<!--<img data-src="public/images/camisa13.jpg" alt="Accesorios Detali">-->
-					<h2 class="Columnas-titulo">ACCESORIOS</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
-
-					<div class="Noimage">
-						<h4>SIN IMAGEN DISPONIBLE</h4>
-					</div> <!-- / Noimage -->
-					<!--<img data-src="public/images/camisa1.jpg" alt="Accesorios Detali">-->
-					<h2 class="Columnas-titulo">ACCESORIOS</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
-				</div> <!-- / Columnas-4 -->
-			</section> <!-- / Columnas -->
-			</section> <!-- / Columnas -->
-
-		<?php include("public/includes/footer.php"); ?>
-	</section> <!-- / Contenedor-Interno -->
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="public/css/normalize.css" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="public/css/main.css" />
-	<!-- CSS -->
-
-	<!-- JS -->
-	<script src=https://cdnjs.cloudflare.com/ajax/libs/blazy/1.6.2/blazy.min.js></script>
-	<script src="public/js/scripts.js"></script>	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-	<!-- JS -->
+		<?php include("includes/footer.php"); ?>
+	</section> <!-- End of Contendio_zapatos -->
+	<?php include("includes/header-interno.php"); ?>
+	
 </body>
 </html>

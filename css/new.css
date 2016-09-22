@@ -1,0 +1,81 @@
+body {
+	height: auto;
+	width: 100%;
+}
+.Centro {
+	height:  auto;
+	margin: 0 auto;
+	max-width:  1200px;
+	text-align:  center;
+	width: 100%;
+}
+.Centro-col1 {
+	height:  auto;
+	display:  inline-block;
+	margin:  0 .5em 0 .5em;
+	vertical-align:  top;
+	width:  30%
+
+}
+.Centro-col1 img {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	margin: 0 0 2em 0;
+}
+.Centro-col2 {
+	height:  auto;
+	display:  inline-block;
+	margin:  0 .5em 0 .5em;
+	vertical-align:  top;
+	width:  30%
+
+}
+.Centro-col2 img {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	margin: 0 0 2em 0;
+}
+.Centro-col3 {	
+	height:  auto;
+	display:  inline-block;
+	margin:  0 .5em 0 .5em;
+	vertical-align:  top;
+	width:  30%
+
+}
+.Centro-col3 img {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	margin: 0 0 2em 0;
+}
+.Contenido_corbatas {
+	height:  auto;
+}
+.Contenido_camisas {
+	height: auto;
+	width: 100%;
+}
+.Contenido_cinturones {
+	height: auto;
+}
+.Contenido_zapatos {
+	height: auto;
+}
+.Contenido_trajes {
+	height: auto;
+}
+.Contenido_pantalones {
+	height: auto;
+}
+.Footer p {
+	padding:  0 0 1em 0;
+}

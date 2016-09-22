@@ -1,72 +1,85 @@
 <!DOCTYPE html>
-<html lang="es-Ar">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Detali Sastreria Italiana - Cinturones</title>
+	<title>Cinturones - Detali Sastreria Italiana</title>
 	<meta name="description" content="Sastreria de hombres estilo Italia ubicada en centro porteño con años de trayectoria vistiendo al hombre moderno">
 
 	<!-- VIEWPORT -->
-	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<!--<meta name="viewport" content="width=device-width, user-scalable=no"/> -->
 	<!-- VIEWPORT -->
 
-	<style>
-		*{border:0;padding:0;margin:0}html{height:100%;width:100%}body{box-sizing:border-box;font-family:'Open Sans',sans-serif;font-size:16px;height:100%}footer{background-color:#1c1252;bottom:0;padding:1em 0 .5em 1em;text-align:center;width:auto}footer a{color:#ddd;text-decoration:none}header{background-color:#000;height:auto;font-size:.9em;font-weight:100;padding:.5em 0;text-align:center;width:auto}header a{color:#fff;text-decoration:none}nav{background-color:rgba(0,0,0,0.7);height:65%;margin:0 0 0 2em;position:relative;width:17%}nav ul li{font-weight:100;list-style:none;padding:.7em 1em .2em 1.5em}nav ul li a{color:#fff;font-size:.8em;text-decoration:none}@media screen and (max-width: 1200px){footer{height:auto;margin:0;padding:.5em 0}}@media screen and (max-width: 800px){footer{height:auto;width:auto;margin:0;padding:.5em 0;width:100%}}@media screen and (max-width: 650px){footer{height:auto;width:auto;margin:0;padding:.5em 0;width:100%}}
-	</style>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/lightbox.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/new.css" />
+	<!-- CSS -->
 
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- FAVICON -->
 
+	<script src="js/modernizr.custom.32037"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/slide.js"></script>
+
 </head>
 <body>
+	<?php include_once("includes/analyticstracking.php") ?>
+	<?php include("includes/footer-interno.php"); ?>
+	<section class="Contenido_cinturones">
+		<section class="Contenido_logo">
+			<?php include("includes/logo-interno.php"); ?>
+		</section> <!-- End of Contenido_logo -->
 
-	<section class="Contenedor-Interno">		
-		<?php include("public/includes/header.php"); ?>
-			<section class="Columnas">
-				<?php include("public/includes/menu-interno.php"); ?>	
-					
-				<div class="Columnas-2">
-					<img data-src="public/images/cinturon1.jpg" alt="Cinturones cuero y gamuza">
-					<h2 class="Columnas-titulo">CINTURONES DESCRIPCION</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
+		<section class="Titulos_grandes">
+			<h1>Cinturones Detalí</h1>
+		</section> <!-- End of Titulos_grandes -->
 
+		<section class="Subtitulos">
+			<?php include("includes/contacto.php"); ?>
+		</section> <!-- End of Subtitulos -->
 
-					<img data-src="public/images/cinturon8.jpg" alt="Cinturones cuero y gamuza">
-					<h2 class="Columnas-titulo">CINTURONES DESCRIPCION</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
-				</div> <!-- / Columnas-2 -->
+		<section class="Centro">
+			<div class="Centro-col1">
+				<a href="img/cinturongal1.jpg" data-lightbox="galeria" data-title="Cinturon Detali">
+					<img src="img/cinturongal1.jpg" width="281px" height="374px" alt="Cinturon Detali">
+				</a>
 
-				<div class="Columnas-3">
-					<img data-src="public/images/cinturon4.jpg" alt="Cinturones cuero y gamuza">
-					<h2 class="Columnas-titulo">CINTURONES DESCRIPCION</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
+				<a href="img/cinturongal2.jpg" data-lightbox="galeria" data-title="Cinturon Detali">
+					<img src="img/cinturongal2.jpg" width="281px" height="374px" alt="Cinturon Detali">
+				</a>
+			</div> <!-- / Centro-col1 -->
 
+			<div class="Centro-col2">
+				<a href="img/cinturongal3.jpg" data-lightbox="galeria" data-title="Cinturon Detali">
+					<img src="img/cinturongal3.jpg" width="281px" height="374px" alt="Cinturon Detali">
+				</a>
+				<a href="img/cinturongal4.jpg" data-lightbox="galeria" data-title="Cinturon Detali">
+					<img src="img/cinturongal4.jpg" width="281px" height="374px" alt="Cinturon Detali">
+				</a>
+			</div> <!-- / Centro-col2 -->
 
-					<img src="public/images/cinturon5.jpg" alt="Cinturones cuero y gamuza">
-					<h2 class="Columnas-titulo">CINTURONES DESCRIPCION</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
-				</div> <!-- / Columnas-3 -->
+			<div class="Centro-col3">
+				<a href="img/cinturongal5.jpg" data-lightbox="galeria" data-title="Cinturon Detali">
+					<img src="img/cinturongal3.jpg" width="281px" height="374px" alt="Cinturon Detali">
+				</a>
+			</div> <!-- / Centro-col3 -->
+			<!--<div class="Slider">
+				<div><img src="img/centros/cintos/cinturones-1.png" alt="Cinturones Detali"></div>
+				<div><img src="img/centros/cintos/cinturones-2.png" alt="Cinturones Detali"></div>
+				<div><img src="img/centros/cintos/cinturones-3.png" alt="Cinturones Detali"></div>
+				<div><img src="img/centros/cintos/cinturones-4.png" alt="Cinturones Detali"></div>
+			</div> <!-- End of Slider -->
+		</section> <!-- End of Centro -->
 
-				<div class="Columnas-4">
-					<img data-src="public/images/cinturon6.jpg" alt="Cinturones cuero y gamuza">
-					<h2 class="Columnas-titulo">CINTURONES DESCRIPCION</h2>
-					<h3 class="Columnas-precio">PRECIO AR$--- - <a href="#">VER MAS</a></h3>
-				</div> <!-- / Columnas-4 -->
-			</section> <!-- / Columnas -->
-		<?php include("public/includes/footer.php"); ?>
-	</section> <!-- / Contenedor-Interno -->
+		<?php include("includes/footer.php"); ?>
+	</section> <!-- End of Contendio_zapatos -->
+	<?php include("includes/header-interno.php"); ?>
 
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="public/css/normalize.css" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="public/css/main.css" />
-	<!-- CSS -->
-
-	<!-- JS -->
-	<script src=https://cdnjs.cloudflare.com/ajax/libs/blazy/1.6.2/blazy.min.js></script>
-	<script src="public/js/scripts.js"></script>	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-	<!-- JS -->
+	<script src="js/modernizr.custom.32037"></script>
+	<script src="js/lightbox.js"></script>
 </body>
 </html>
